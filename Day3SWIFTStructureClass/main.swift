@@ -30,8 +30,10 @@ c4 = CStudent()
 c4 = nil
 
 var e1 = Employee()
-e1.employeeID = 1
+e1.employeeID = "100"
 e1.firstName = "Nikita"
 e1.lastName = "Sandhu"
+print(e1.employeeID)
 print(e1.fullName)
 print(e1.age)
+

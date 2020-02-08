@@ -11,8 +11,8 @@ import Foundation
 class Employee {
     var empCode : String = ""
     var employeeID : String{
-        set(id){
-            empCode = "EMP \(id)"
+        set{
+            empCode = "EMP \(newValue)"
         }
         get{
             return empCode
@@ -27,6 +27,9 @@ class Employee {
     var birthDate = Date()
     var age : Int
     {
-        return 10
+        //return 10
+        get{
+            10
+        }
     }
 }
